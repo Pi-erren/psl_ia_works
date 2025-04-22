@@ -14,7 +14,7 @@ The goal of this project is to train a network for playing the game of Go. Each 
 The data used for training comes from the **Katago Go program** self played games. There are 1 000 000 different games in total in the training set. The **input data** is composed of **31 19x19 planes** (color to play, ladders, current state on two planes, two previous states on four planes). The **output targets** are the policy (a vector of size 361 with 1.0 for the move played, 0.0 for the other moves), and the value (close to 1.0 if White wins, close to 0.0 if Black wins).
 
 ## Environment
-This project was developped with a Google Colab Notebook and Google Drive in 01/01/2025.
+This project was developped with a Google Colab Notebook and Google Drive in january 2025.
 
 ## Source code
 Games and data implementations are handled by a C++ code (/Game folder) provided by Tristan Cazenave. This projects focuses on building a network in a supervised-learning manner.
